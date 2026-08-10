@@ -1,9 +1,11 @@
+import { Navbar } from "./components/layouts/Navbar"
+
 function App() {
 
   return (
-    <>
-      App...
-    </>
+    <div className="min-h-screen overflow-x-hidden">
+      <Navbar />
+    </div>
   )
 }
 
