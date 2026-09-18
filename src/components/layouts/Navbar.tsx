@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next"
 import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
+import { LanguageSwitcher } from "../ui/LanguageSwitcher"
 
 const navLinks = [
     {
@@ -58,8 +59,15 @@ export const Navbar = () => {
                     </div>
                 </div>
 
+                {/* BTN LanguageSwitcher */}
+                <div className="hidden md:block">
+                    <LanguageSwitcher />
+                </div>
+
                 {/* Mobile Controls */}
                 <div className="flex items-center gap-2 md:hidden">
+                    <LanguageSwitcher />
+
                     <button
                         className="p-2 text-foreground cursor-pointer"
                         onClick={() => setIsMobileMenuOpen(prev => !prev)}
