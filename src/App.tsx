@@ -1,6 +1,7 @@
 import { Navbar } from "./components/layouts/Navbar"
 import { About } from "./components/sections/About"
 import { Hero } from "./components/sections/Hero"
+import { Skills } from "./components/sections/Skills"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Skills /> 
     </div>
   )
 }

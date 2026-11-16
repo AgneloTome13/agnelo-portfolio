@@ -20,5 +20,17 @@
         "goals.1": "Entregar produtos robustos, escaláveis e bem testados.",
         "goals.2": "Evoluir continuamente em arquitetura e boas práticas.",
         "goals.3": "Colaborar em equipas que valorizam qualidade e impacto."
+    },
+    "skills": {
+        "title": "Competências técnicas",
+        "subtitle": "Tecnologias, ferramentas e práticas que utilizo no desenvolvimento de soluções.",
+        "categories": {
+        "frontend": "Frontend Development",
+        "backend": "Backend Development",
+        "database": "Bases de Dados",
+        "devops": "DevOps & Ferramentas",
+        "methodologies": "Metodologias & Práticas",
+        "other": "Arquitetura & Outros"
+        }
     }
 }

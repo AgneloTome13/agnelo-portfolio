@@ -20,5 +20,17 @@
         "goals.1": "Deliver robust, scalable, and well-tested products.",
         "goals.2": "Continuously evolve in architecture and best practices.",
         "goals.3": "Collaborate in teams that value quality and impact."
+    },
+    "skills": {
+    "title": "Technical Skills",
+    "subtitle": "Technologies, tools and practices I use to build software solutions.",
+    "categories": {
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "database": "Databases",
+      "devops": "DevOps & Tools",
+      "methodologies": "Methodologies & Practices",
+      "other": "Architecture & Others"
     }
+  }
 }
