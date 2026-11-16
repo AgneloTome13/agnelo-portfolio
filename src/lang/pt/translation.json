@@ -5,5 +5,20 @@
         "skills": "Habilidades",
         "projects": "Projectos",
         "contact": "Contacto"
+    },
+    "hero": {
+        "role": "Fullstack Developer",
+        "title": "Transformo ideias e problemas em soluções",
+        "subtitle": "Do primeiro rascunho ao código final, procuro criar soluções simples, úteis e que façam sentido para quem vai usá-las.",
+        "cta.projects": "Ver projetos",
+        "cta.contact": "Entrar em contacto"
+    },
+    "about": {
+        "title": "Sobre mim",
+        "description": "Sou um developer fullstack orientado a soluções, focado em resolver problemas reais. Busco entender o contexto, simplificar processos e entregar valor de forma clara, evoluindo continuamente.",
+        "goals.title": "Objetivos",
+        "goals.1": "Entregar produtos robustos, escaláveis e bem testados.",
+        "goals.2": "Evoluir continuamente em arquitetura e boas práticas.",
+        "goals.3": "Colaborar em equipas que valorizam qualidade e impacto."
     }
 }

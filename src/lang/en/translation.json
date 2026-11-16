@@ -5,5 +5,20 @@
         "skills": "Skills",
         "projects": "Projects",
         "contact": "Contact"
+    },
+    "hero": {
+        "role": "Fullstack Developer",
+        "title": "I transform ideas and problems into solutions",
+        "subtitle": "From the first draft to the final code, I strive to create simple, useful solutions that make sense for those who will use them.",
+        "cta.projects": "See projects",
+        "cta.contact": "Get in touch"
+    },
+    "about": {
+        "title": "About me",
+        "description": "I am a solution-oriented full-stack developer, focused on solving real-world problems. I strive to understand the context, simplify processes, and deliver value in a clear way, while continuously evolving.",
+        "goals.title": "Goals",
+        "goals.1": "Deliver robust, scalable, and well-tested products.",
+        "goals.2": "Continuously evolve in architecture and best practices.",
+        "goals.3": "Collaborate in teams that value quality and impact."
     }
 }
