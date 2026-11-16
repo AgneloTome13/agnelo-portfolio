@@ -32,5 +32,21 @@
         "methodologies": "Metodologias & Práticas",
         "other": "Arquitetura & Outros"
         }
+    },
+    "projects": {
+        "title": "Projectos",
+        "subtitle": "Alguns dos projectos recentes.",
+        "status": {
+            "completed": "Concluído",
+            "development": "Em desenvolvimento"
+        }
+    },
+    "contact": {
+        "title": "Vamos conversar",
+        "subtitle": "Disponível para projetos freelance, colaborações e oportunidades full-time.",
+        "email": "Enviar email"
+    },
+    "footer": {
+        "rights": "Todos os direitos reservados."
     }
 }

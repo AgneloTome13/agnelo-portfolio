@@ -22,15 +22,31 @@
         "goals.3": "Collaborate in teams that value quality and impact."
     },
     "skills": {
-    "title": "Technical Skills",
-    "subtitle": "Technologies, tools and practices I use to build software solutions.",
-    "categories": {
-      "frontend": "Frontend Development",
-      "backend": "Backend Development",
-      "database": "Databases",
-      "devops": "DevOps & Tools",
-      "methodologies": "Methodologies & Practices",
-      "other": "Architecture & Others"
+        "title": "Technical Skills",
+        "subtitle": "Technologies, tools and practices I use to build software solutions.",
+        "categories": {
+        "frontend": "Frontend Development",
+        "backend": "Backend Development",
+        "database": "Databases",
+        "devops": "DevOps & Tools",
+        "methodologies": "Methodologies & Practices",
+        "other": "Architecture & Others"
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "Some of the recent projects.",
+        "status": {
+            "completed": "Completed",
+            "development": "In development"
+        }
+    },
+    "contact": {
+        "title": "Let's talk",
+        "subtitle": "Available for freelance projects, collaborations and full-time opportunities.",
+        "email": "Send email"
+    },
+    "footer": {
+        "rights": "All rights reserved."
     }
-  }
 }
