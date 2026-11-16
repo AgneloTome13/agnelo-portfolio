@@ -1,4 +1,5 @@
 import { Navbar } from "./components/layouts/Navbar"
+import { SurveyModal } from "./components/layouts/SurveyModal"
 import { About } from "./components/sections/About"
 import { Contact } from "./components/sections/Contact"
 import { Hero } from "./components/sections/Hero"
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <div className="min-h-screen overflow-x-hidden">
+      <SurveyModal />
       <Navbar />
       <Hero />
       <About />

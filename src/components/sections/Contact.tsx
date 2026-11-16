@@ -13,7 +13,7 @@ export function Contact() {
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-muted-foreground">{t("contact.subtitle")}</p>
         <a
-          href="mailto:hello@example.com"
+          href="mailto:agnelotome09@gmail.com"
           className="mt-8 inline-flex h-11 items-center gap-2 rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
         >
           <Mail className="h-4 w-4" /> {t("contact.email")}

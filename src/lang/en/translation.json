@@ -48,5 +48,14 @@
     },
     "footer": {
         "rights": "All rights reserved."
+    },
+    "surveyModal": {
+        "label": "Your opinion matters",
+        "title": "Help me build a better solution.",
+        "description": "I am conducting a survey to understand the need for psychological, emotional, and social support and to see how technology can facilitate access to these services.",
+        "note": "The survey is voluntary and the responses will be used for research and project evaluation purposes.",
+        "button": "Participate in the survey",
+        "later": "Maybe later",
+        "close": "Close"
     }
 }

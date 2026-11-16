@@ -48,5 +48,14 @@
     },
     "footer": {
         "rights": "Todos os direitos reservados."
+    },
+    "surveyModal": {
+        "label": "A tua opinião importa",
+        "title": "Ajuda-me a construir uma solução.",
+        "description": "Estou a realizar um inquérito para compreender as necessidades de apoio psicológico, emocional e social e perceber como a tecnologia pode facilitar o acesso a estes serviços.",
+        "note": "O preenchimento é voluntário e as respostas serão utilizadas para fins de investigação e avaliação do projeto.",
+        "button": "Participar no inquérito",
+        "later": "Talvez mais tarde",
+        "close": "Fechar"
     }
 }
