@@ -21,7 +21,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: "grace-medical",
-    image: "/public/images/projects/grace-medical.png",
+    image: "/images/projects/grace-medical.png",
     demo: "https://gmcclinica.ao/",
     title: "Grace Medical Center",
     category: "Web Application",
@@ -38,7 +38,7 @@ export const projects: Project[] = [
   },
   {
     id: "boa-imagem",
-    image: "/public/images/projects/boa-imagem.png",
+    image: "/images/projects/boa-imagem.png",
     demo: "https://boa-imagem.vercel.app/",
     github: "https://github.com/AgneloTome13/boa-imagem",
     title: "Boa Imagem",
@@ -56,7 +56,7 @@ export const projects: Project[] = [
   },
   {
     id: "apoio-psicologico",
-    image: "/public/images/projects/em-desenvolvimento.jpg",
+    image: "/images/projects/em-desenvolvimento.jpg",
     title: "App Apoio",
     category: "Web Application",
     status: "development",

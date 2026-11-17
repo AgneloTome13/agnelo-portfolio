@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"
 
-const PROFILE_IMAGE = "/public/images/perfil.png";
+const PROFILE_IMAGE = "/images/perfil.png";
 
 export const Hero = () => {
     const { t } = useTranslation()
