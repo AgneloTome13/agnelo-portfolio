@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"
 
-const PROFILE_IMAGE = "https://api.dicebear.com/7.x/initials/svg?seed=FD&backgroundColor=0f172a&textColor=3b82f6";
+const PROFILE_IMAGE = "/public/images/perfil.png";
 
 export const Hero = () => {
     const { t } = useTranslation()
@@ -44,9 +44,12 @@ export const Hero = () => {
 
           <div className="relative shrink-0">
             <div className="absolute -inset-2 rounded-full opacity-20 blur-2xl" style={{ background: "color-mix(in oklab, var(--primary) 50%, transparent)" }} />
-            <img src={PROFILE_IMAGE} alt="Foto de perfil"
-              className="relative z-10 h-48 w-48 rounded-full border-2 border-border object-cover shadow-lg md:h-64 md:w-64"
-            />
+            
+            <div className="profile-border">
+              <img src={PROFILE_IMAGE} alt="Foto de perfil"
+                className="h-48 w-48 rounded-full border-2 border-background object-cover md:h-64 md:w-64"
+              />
+            </div>
           </div>
         </div>
       </div>

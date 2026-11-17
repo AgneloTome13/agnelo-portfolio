@@ -20,9 +20,44 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "apoio-psicologico",
+    id: "grace-medical",
     image: "/public/images/projects/grace-medical.png",
-    title: "Plataforma de Apoio Psicológico",
+    demo: "https://gmcclinica.ao/",
+    title: "Grace Medical Center",
+    category: "Web Application",
+    status: "completed",
+    role: {
+      pt: "Desenvolvimento Full Stack",
+      en: "Full Stack Development",
+    },
+    description: {
+      pt: "Website institucional, com foco na apresentação dos serviços médicos, especialidades e informações da clínica. Interface moderna, responsiva e intuitiva. Inclui gestão de conteúdos e suporte a 2 idiomas.",
+      en: "Institutional website, focusing on presenting medical services, specialties, and clinic information. Modern, responsive, and intuitive interface. Includes content management and support for 2 languages.",
+    },
+    stack: ["Laravel", "JavaScript", "MySQL"],
+  },
+  {
+    id: "boa-imagem",
+    image: "/public/images/projects/boa-imagem.png",
+    demo: "https://boa-imagem.vercel.app/",
+    github: "https://github.com/AgneloTome13/boa-imagem",
+    title: "Boa Imagem",
+    category: "Enterprise Software",
+    status: "completed",
+    role: {
+      pt: "Desenvolvimento e manutenção de funcionalidades",
+      en: "Feature development and maintenance",
+    },
+    description: {
+      pt: "O projeto explora a criação de interfaces, atrativas e responsivas, utilizando apenas HTML, CSS e JavaScript, sem recorrer a frameworks ou bibliotecas externas.",
+      en: "Modern, attractive, and responsive interfaces created using only HTML, CSS, and JavaScript, without relying on external frameworks or libraries.",
+    },
+    stack: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    id: "apoio-psicologico",
+    image: "/public/images/projects/em-desenvolvimento.jpg",
+    title: "App Apoio",
     category: "Web Application",
     status: "development",
     role: {
@@ -33,36 +68,6 @@ export const projects: Project[] = [
       pt: "Plataforma digital para rastreio de saúde mental e aproximação entre pessoas que procuram apoio psicológico e profissionais da área.",
       en: "Digital platform for mental health screening and connecting people seeking psychological support with professionals.",
     },
-    stack: ["React", "TypeScript", "Laravel", "MySQL"],
-  },
-  {
-    id: "hospital-management",
-    title: "Hospital Management System",
-    category: "Enterprise Software",
-    status: "completed",
-    role: {
-      pt: "Desenvolvimento e manutenção de funcionalidades",
-      en: "Feature development and maintenance",
-    },
-    description: {
-      pt: "Sistema de gestão hospitalar com módulos para gerir processos clínicos, administrativos e operacionais.",
-      en: "Hospital management system with modules for clinical, administrative and operational processes.",
-    },
-    stack: ["PHP", "Symfony", "MySQL", "JavaScript"],
-  },
-  {
-    id: "web-platform",
-    title: "Web Development Project",
-    category: "Web Application",
-    status: "completed",
-    role: {
-      pt: "Desenvolvimento Full Stack",
-      en: "Full Stack Development",
-    },
-    description: {
-      pt: "Aplicação web desenvolvida para demonstrar competências de desenvolvimento frontend e backend.",
-      en: "Web application developed to demonstrate frontend and backend development skills.",
-    },
-    stack: ["Laravel", "PHP", "MySQL", "Bootstrap"],
+    stack: ["Laravel", "React", "TailwindCSS", "MySQL"],
   },
 ];

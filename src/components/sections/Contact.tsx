@@ -19,10 +19,10 @@ export function Contact() {
           <Mail className="h-4 w-4" /> {t("contact.email")}
         </a>
         <div className="mt-8 flex items-center justify-center gap-6 text-muted-foreground">
-          <a href="#" className="transition-colors hover:text-foreground" aria-label="GitHub">
+          <a href="https://github.com/AgneloTome13" className="transition-colors hover:text-foreground" aria-label="GitHub">
             <Github className="h-5 w-5" />
           </a>
-          <a href="#" className="transition-colors hover:text-foreground" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/agnelo-tom%C3%A9-849046262/" className="transition-colors hover:text-foreground" aria-label="LinkedIn">
             <Linkedin className="h-5 w-5" />
           </a>
         </div>

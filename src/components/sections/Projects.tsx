@@ -2,10 +2,10 @@
 import { projects } from "../../lib/projects";
 import { useTranslation } from "react-i18next";
 import { ExternalLink } from "lucide-react";
+import { FaGithub as Github } from "react-icons/fa";
 
 export const Projects = () => {
   const { t, i18n } = useTranslation();
-  
   const lang = i18n.resolvedLanguage?.startsWith("en") ? "en" : "pt";
 
   const statusStyles = {
@@ -59,14 +59,14 @@ export const Projects = () => {
               <div className="flex flex-1 flex-col gap-4 p-5">
 
                 <div className="flex items-center justify-between gap-2">
-                  <span className="text-xs text-primary">
-                    {p.category}
-                  </span>
+                    <span className="text-xs text-primary">
+                        {p.category}
+                    </span>
 
-                  <span
-                    className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[10px] font-medium ${
-                        statusStyles[p.status]
-                    }`}
+                    <span
+                        className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[10px] font-medium ${
+                            statusStyles[p.status]
+                        }`}
                     >
                     <span className="mr-1.5 h-1.5 w-1.5 rounded-full bg-current" />
                         {t(`projects.status.${p.status}`)}
@@ -78,16 +78,12 @@ export const Projects = () => {
                     {p.title}
                   </h3>
 
-                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground text-justify">
                     {p.description[lang]}
                   </p>
                 </div>
 
                 <div>
-                  <p className="mb-2 text-xs font-medium text-foreground">
-                    {t("projects.role")}: {p.role[lang]}
-                  </p>
-
                   <div className="flex flex-wrap gap-1.5">
                     {p.stack.map((skill) => (
                       <span
@@ -101,7 +97,17 @@ export const Projects = () => {
                 </div>
 
                 <div className="mt-auto flex gap-4 border-t border-border/50 pt-4">
-
+                  {p.github && (
+                    <a
+                      href={p.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-primary"
+                    >
+                      <Github size={14} />
+                      {t("projects.code")}
+                    </a>
+                  )}
 
                   {p.demo && (
                     <a

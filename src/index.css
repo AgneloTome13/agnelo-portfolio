@@ -70,3 +70,34 @@
         animation: fade-in 0.8s ease-out both;
     }
 }
+
+.profile-border {
+    position: relative;
+    isolation: isolate;
+    display: inline-flex;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.profile-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: conic-gradient(
+        from 0deg,
+        #4F8FEA 0%,
+        #263e5c 25%,
+        #141a1f 50%,
+        #263e5c 75%,
+        #4F8FEA 100%
+    );
+    animation: rotate-border 8s linear infinite;
+    z-index: -1;
+}
+
+@keyframes rotate-border {
+    to {
+        transform: rotate(360deg);
+    }
+}

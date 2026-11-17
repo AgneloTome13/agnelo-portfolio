@@ -39,7 +39,9 @@
         "status": {
             "completed": "Completed",
             "development": "In development"
-        }
+        },
+        "code": "Source code",
+        "demo": "Demo"
     },
     "contact": {
         "title": "Let's talk",
